@@ -1,0 +1,15 @@
+alert("Let's Do Some Math");
+var userNum1 = prompt("Please enter a number");
+userNum1 = parseFloat(userNum1);
+var userNum2 = prompt("Please enter another number");
+userNum2 = parseFloat(userNum2);
+var message = "<h1>Math with the numbers " + userNum1 + " and " + userNum2 + "</h1>";
+message += userNum1 + " + " + userNum2 + " = " + (userNum1 + userNum2);
+message += "<br>";
+message += userNum1 + " * " + userNum2 + " = " + (userNum1 * userNum2);
+message += "<br>";
+message += userNum1 + " / " + userNum2 + " = " + (userNum1 / userNum2);
+message += "<br>";
+message += userNum1 + " - " + userNum2 + " = " + (userNum1 - userNum2);
+message += "<br>";
+document.write(message);
